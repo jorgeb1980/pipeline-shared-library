@@ -6,6 +6,20 @@
 	<artifactId>shared-library</artifactId>
 	<version>1.0.0-SNAPSHOT</version>
 
+	<repositories>
+		<repository>
+			<id>groovy-compiler</id>
+			<name>Groovy compiler repository</name>
+			<url>https://dl.bintray.com/groovy/maven</url>
+		</repository>
+	</repositories>
+	<pluginRepositories>
+        <pluginRepository>
+            <id>roovy-compiler-plugin</id>
+            <name>bintray-plugins</name>
+            <url>https://dl.bintray.com/groovy/maven</url>
+        </pluginRepository>
+    </pluginRepositories>
 	<dependencies>
 		<dependency>
 			<groupId>org.codehaus.groovy</groupId>
@@ -20,10 +34,10 @@
 		</dependency>
 	</dependencies>
 	<properties>
-	        <groovy.version>2.4.7</groovy.version>
-	        <groovy.eclipse.version>2.9.2-01</groovy.eclipse.version>
-	        <groovy.eclipse.batch.version>2.4.3-01</groovy.eclipse.batch.version>
-	        <java.version>1.8</java.version>
+		<groovy.version>2.4.7</groovy.version>
+		<groovy.eclipse.version>2.9.3-01</groovy.eclipse.version>
+		<groovy.eclipse.batch.version>2.4.3-01</groovy.eclipse.batch.version>
+		<java.version>1.8</java.version>
 	</properties>
 	<build>
 		<sourceDirectory>src</sourceDirectory>
