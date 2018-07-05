@@ -1,2 +1,2 @@
 # pipeline-shared-library
-Sample shared library to be used with Jenkins plugins
+Sample of a Jenkins shared library with unit testing
